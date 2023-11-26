@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
+import 'package:ticket/bottombar.dart';
 import 'package:ticket/dashboard_screen.dart';
 
 class verification extends StatelessWidget {
@@ -79,7 +80,7 @@ class verification extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => dashboardscreen(),
+                    builder: (context) => bottombar(),
                   ),
                 );
               },

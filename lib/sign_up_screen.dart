@@ -206,7 +206,7 @@ class _signupscreenState extends State<signupscreen> {
                 },
                 child: Container(
                   height: 40,
-                  width: 360,
+                  width: 350,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       color: Colors.blue),

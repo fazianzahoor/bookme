@@ -145,7 +145,7 @@ class _signinscreenState extends State<signinscreen> {
               },
               child: Container(
                 height: 40,
-                width: 360,
+                width: 340,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: Colors.blue),
